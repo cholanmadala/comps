@@ -20,7 +20,7 @@ function Button({ rounded, children, outlined, primary, secondary, success, warn
 			'text-blue-500': outlined && primary,
 			'text-gray-900': outlined && secondary,
 			'text-green-500': outlined && success,
-			'text-yellow-400': outlined && warning,
+			'text-yellow-400': warning && outlined,
 			'text-red-500': outlined && danger
 		}
 	);
